@@ -17,6 +17,8 @@ MIRYOKU_X(SYM,    "Sym") \
 MIRYOKU_X(FUN,    "Fun") \
 MIRYOKU_X(LOLU,   "Lolu")
 
+#define MIRYOKU_LAYERMAPPING_LOLU MIRYOKU_MAPPING
+
 #define U_BASE   0
 #define U_EXTRA  1
 #define U_TAP    2
@@ -28,9 +30,6 @@ MIRYOKU_X(LOLU,   "Lolu")
 #define U_SYM    8
 #define U_FUN    9
 #define U_LOLU   10
-
-#define MIRYOKU_LAYERMAPPING_LOLU MIRYOKU_MAPPING
-
 
 #define MIRYOKU_LAYER_EXTRA \
 &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp NUM_4,         &kp B,             &u_to_U_BASE,      U_PST,             U_CPY,             U_CUT,             U_UND,             \
