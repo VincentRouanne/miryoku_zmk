@@ -37,7 +37,7 @@ MIRYOKU_X(LOLU,   "Lolu")
 &kp TAB,           &kp A,             &kp S,             &kp D,             &kp B,             U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 U_NP,              U_NP,              U_NP,              U_LT(U_LOLU, SPC), &kp LALT,          U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
-#define MIRYOKU_ALTERNATIVES_NUM \
+#define MIRYOKU_LAYER_NUM \
 &kp CRRT,          &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp PLUS,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
 &kp MINUS,         &kp NUM_4,         &kp NUM_5,         &kp NUM_6,         &kp DLLR,          U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 &kp ASTRK,         &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp FSLH,          U_NA,              &u_to_U_NUM,       &u_to_U_NAV,       &kp RALT,          U_NA,              \
