@@ -35,13 +35,19 @@ MIRYOKU_X(LOLU,   "Lolu")
 &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp NUM_4,         &kp P,             &u_to_U_BASE,      U_PST,             U_CPY,             U_CUT,             U_UND,             \
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp F,             U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 &kp TAB,           &kp A,             &kp S,             &kp D,             &kp B,             U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
+U_NP,              U_NP,              U_NP,              U_LT(U_LOLU, SPC), &kp LALT,          U_BTN2,            U_BTN1,            U_BTN3,            U_NP, 
+
+#define MIRYOKU_LAYER_BASE \
+&kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp NUM_4,         &kp P,             &u_to_U_BASE,      U_PST,             U_CPY,             U_CUT,             U_UND,             \
+&kp Q,             &kp W,             &kp E,             &kp R,             &kp F,             U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
+&kp TAB,           &kp A,             &kp S,             &kp D,             &kp B,             U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 U_NP,              U_NP,              U_NP,              U_LT(U_LOLU, SPC), &kp LALT,          U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
 #define MIRYOKU_LAYER_NUM \
 &kp CRRT,          &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp PLUS,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
 &kp MINUS,         &kp NUM_4,         &kp NUM_5,         &kp NUM_6,         &kp DLLR,          U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 &kp ASTRK,         &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp FSLH,          U_NA,              &u_to_U_NUM,       &u_to_U_NAV,       &kp RALT,          U_NA,              \
-U_NP,              U_NP,              &kp DOT,           &kp LT,            &kp GT,            U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+U_NP,              U_NP,              &kp DOT,           &kp NUM_0,         &kp GT,            U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_LAYER_SYM \
 &kp TILDE,         &kp LBKT,          &kp RBKT,          &kp AMPS,          &kp PIPE,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
@@ -50,7 +56,7 @@ U_NP,              U_NP,              &kp DOT,           &kp LT,            &kp 
 U_NP,              U_NP,              &kp DOT,           &kp EXCL,          &kp QMARK,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_LAYER_LOLU \
-&kp F1,            &kp F2,            &kp F3,            &kp F4,            &kp T,             U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
+&kp F1,            &kp F2,            &kp F3,            &kp F4,            &kp SPC,           U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 &kp LS(Q),         &kp LS(W),         &kp LS(E),         &kp LS(R),         &kp U_NA,          U_NU,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-U_NA,              &kp GRAVE,         &kp SPC,           &kp U_NA,          &kp ESC,           U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
+U_NA,              &kp GRAVE,         &kp T,             &kp U_NA,          &kp ESC,           U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 U_NP,              U_NP,              U_NP,              U_NA,              U_NA,              U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
