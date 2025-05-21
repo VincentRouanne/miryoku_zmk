@@ -50,6 +50,12 @@ U_NP,              U_NP,              U_NP,              U_LT(U_LOLU, SPC), &kp 
 &kp TAB,           &kp A,             &kp S,             &kp D,             &kp B,             U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 U_NP,              U_NP,              U_NP,              U_LT(U_LOLU, SPC), &kp LALT,          U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
+#define MIRYOKU_LAYER_NAV \
+&kp LC(LA(LG(NUM_4))), &kp LC(LA(LG(NUM_1))),  &kp LC(LA(LG(NUM_2))), &kp LC(LA(LG(NUM_3))), &kp F5,  U_RDO,      U_PST,             &kp LC(T),         &kp LC(R),         U_UND,             \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &u_caps_word,      &kp LEFT,          &kp UP,            &kp DOWN,          &kp RIGHT,         \
+U_BOOT,            &kp F1,            &kp LC(X),         &u_to_U_NAV,       &kp LC(D),         &kp INS,           &kp HOME,          &kp PG_UP,         &kp PG_DN,         &kp END,           \
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+
 #define MIRYOKU_LAYER_NUM \
 &kp GRAVE,         &kp NUM_9,         &kp NUM_8,         &kp NUM_7,         &kp PLUS,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
 &kp MINUS,         &kp NUM_3,         &kp NUM_2,         &kp NUM_1,         &kp EQUAL,         U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
